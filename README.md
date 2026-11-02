@@ -15,12 +15,14 @@
 
 ## Структура проекта
 
-- `01_data_quality_analysis.ipynb` — анализ и очистка данных в Python.
-- `analytics_queries.sql` — SQL-запросы для аналитики в PostgreSQL.
+- `01_data_quality_analysis.ipynb` — исследование и очистка данных в Python.
+- `analytics_queries.sql` — аналитические запросы PostgreSQL.
 - `transaction_analytics.pbix` — интерактивный дашборд Power BI.
 - `data_quality_notes.md` — результаты первичного анализа качества данных.
-- `jupyter_analysis_screenshots.docx` — скриншоты выполнения анализа.
-- `data/` — локальная папка с исходным и очищенным датасетами. Очищенный CSV не загружен в репозиторий из-за размера.
+- `jupyter_analysis_screenshots.docx` — скриншоты анализа в Jupyter Notebook.
+- `.gitignore` — список исключённых из Git файлов.
+
+Исходный и очищенный датасеты хранятся локально и не загружены в репозиторий из-за размера файлов.
 
 ## Выполненные этапы
 
