@@ -1,0 +1,19 @@
+# Виртуальное окружение Python
+.venv/
+
+# Служебные файлы Jupyter
+.ipynb_checkpoints/
+
+# Временные файлы Python
+__pycache__/
+*.pyc
+
+# Системные файлы Windows
+Thumbs.db
+.DS_Store
+
+# Временные файлы
+*.tmp
+
+# Большой очищенный датасет
+data/online_retail_clean.csv
