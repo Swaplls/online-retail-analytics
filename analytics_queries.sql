@@ -5,6 +5,7 @@ SELECT
 FROM staging.fact_sales f
 JOIN staging.dim_customer c
     ON f.customer_id = c.customer_id
+WHERE f.transaction_type = 'Sale'
 GROUP BY c.country
 ORDER BY total_amount DESC
 LIMIT 10;
@@ -18,6 +19,7 @@ SELECT
 FROM staging.fact_sales f
 JOIN staging.dim_date d
     ON f.sale_date = d.full_date
+WHERE f.transaction_type = 'Sale'
 GROUP BY d.year, d.month
 ORDER BY d.year, d.month;
 
